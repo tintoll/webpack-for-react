@@ -8,7 +8,9 @@
   },
   "dependencies": {
     "react": "^16.4.1",
+    "react-delay-render": "^0.1.2",
     "react-dom": "^16.4.1",
+    "react-imported-component": "^4.6.2",
     "react-prop-types": "^0.4.0",
     "react-router-dom": "^4.3.1",
     "semantic-ui-react": "^0.81.3"

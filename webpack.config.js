@@ -9,7 +9,7 @@ module.exports = {
   entry: "./src/index.js",
   output: {
     //  [hash]는 애플리케이션이 수정되어 다시 컴파일 될 때마다 웹팩에서 생성된 해시로 변경해주어 캐싱에 도움이 된다.
-    filename: "bundle.[hash].js",
+    filename: "[name].[hash].js",
     // Hot reloading 은 중첩된 경로에서 동작하지 않는다.
     publicPath: "/"
   },
